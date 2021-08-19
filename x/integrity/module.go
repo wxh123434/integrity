@@ -11,9 +11,9 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/SBC/integrity/x/integrity/client/cli"
-	"github.com/SBC/integrity/x/integrity/keeper"
-	"github.com/SBC/integrity/x/integrity/types"
+	"github.com/wxh123434/integrity/x/integrity/client/cli"
+	"github.com/wxh123434/integrity/x/integrity/keeper"
+	"github.com/wxh123434/integrity/x/integrity/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
