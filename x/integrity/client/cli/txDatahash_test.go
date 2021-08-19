@@ -10,8 +10,8 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/SBC/integrity/testutil/network"
-	"github.com/SBC/integrity/x/integrity/client/cli"
+	"github.com/wxh123434/integrity/testutil/network"
+	"github.com/wxh123434/integrity/x/integrity/client/cli"
 )
 
 func TestCreateDatahash(t *testing.T) {
