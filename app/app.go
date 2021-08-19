@@ -16,7 +16,7 @@ import (
 	dbm "github.com/tendermint/tm-db"
 
 	appparams "github.com/SBC/integrity/app/params"
-	"github.com/SBC/integrity/docs"
+	"github.com/wxh123434/integrity/docs"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/client/grpc/tmservice"
 	"github.com/cosmos/cosmos-sdk/client/rpc"
@@ -85,9 +85,9 @@ import (
 	tmjson "github.com/tendermint/tendermint/libs/json"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	// this line is used by starport scaffolding # stargate/app/moduleImport
-	"github.com/SBC/integrity/x/integrity"
-	integritykeeper "github.com/SBC/integrity/x/integrity/keeper"
-	integritytypes "github.com/SBC/integrity/x/integrity/types"
+	"github.com/wxh123434/integrity/x/integrity"
+	integritykeeper "github.com/wxh123434/integrity/x/integrity/keeper"
+	integritytypes "github.com/wxh123434/integrity/x/integrity/types"
 )
 
 const Name = "integrity"
