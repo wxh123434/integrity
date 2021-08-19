@@ -11,7 +11,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/SBC/integrity/x/integrity/types"
+	"github.com/wxh123434/integrity/x/integrity/types"
 )
 
 func TestDatahashQuerySingle(t *testing.T) {
