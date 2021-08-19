@@ -3,7 +3,7 @@ package keeper
 import (
 	"testing"
 
-	"github.com/SBC/integrity/x/integrity/types"
+	"github.com/wxh123434/integrity/x/integrity/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/assert"
 )
