@@ -5,7 +5,7 @@ import (
 
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/SBC/integrity/x/integrity/types"
+	"github.com/wxh123434/integrity/x/integrity/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	// this line is used by starport scaffolding # ibc/keeper/import
