@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/SBC/integrity/x/integrity/types"
+	"github.com/wxh123434/integrity/x/integrity/types"
 )
 
 func TestDatahashMsgServerCreate(t *testing.T) {
