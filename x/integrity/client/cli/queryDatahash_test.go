@@ -12,9 +12,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/SBC/integrity/testutil/network"
-	"github.com/SBC/integrity/x/integrity/client/cli"
-	"github.com/SBC/integrity/x/integrity/types"
+	"github.com/wxh123434/integrity/testutil/network"
+	"github.com/wxh123434/integrity/x/integrity/client/cli"
+	"github.com/wxh123434/integrity/x/integrity/types"
 )
 
 func networkWithDatahashObjects(t *testing.T, n int) (*network.Network, []*types.Datahash) {
