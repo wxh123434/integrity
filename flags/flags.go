@@ -1,15 +1,17 @@
 package flags
 
 import (
-	"fmt"
-	"strconv"
+	//"fmt"
+	"os"
+	//"strconv"
 
 	"github.com/spf13/cobra"
-	tmcli "github.com/tendermint/tendermint/libs/cli"
+	"github.com/spf13/viper"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
+	//tmcli "github.com/tendermint/tendermint/libs/cli"
+
+	//"github.com/cosmos/cosmos-sdk/crypto/keys"
 )
-
 
 
 
