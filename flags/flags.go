@@ -15,18 +15,6 @@ import (
 
 )
 
-package flags
-
-import (
-	"fmt"
-	"strconv"
-
-	"github.com/spf13/cobra"
-	tmcli "github.com/tendermint/tendermint/libs/cli"
-
-	"github.com/cosmos/cosmos-sdk/crypto/keyring"
-)
-
 const (
 	// DefaultGasAdjustment is applied to gas estimates to avoid tx execution
 	// failures due to state changes that might occur between the tx simulation
